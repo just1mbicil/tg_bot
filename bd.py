@@ -1,7 +1,7 @@
 from mysql.connector import *
 
 connection = connect(
-    host="localhost",
+    host="195.22.149.211",
     user="bot",
     password="bot164",
     database="bot_db")

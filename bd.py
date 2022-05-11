@@ -1,9 +1,8 @@
 from mysql.connector import *
 
 connection = connect(
-    host="195.22.149.211",
+    host="localhost",
     user="bot",
-    password="bot164",
     database="bot_db")
 
 def request(s):
